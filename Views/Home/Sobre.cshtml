@@ -1,0 +1,85 @@
+@{
+    ViewBag.Title = "Sobre";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Projeto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #0078D7;
+        }
+
+        .highlight {
+            color: #0078D7;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Sobre o Projeto</h1>
+            <p>
+                Este projeto foi desenvolvido com o objetivo de <span class="highlight">aprimorar o conhecimento em C#</span> e 
+                estruturar aplicações web utilizando o padrão <span class="highlight">MVC (Model-View-Controller)</span>.
+                A organização do código foi feita no <span class="highlight">Visual Studio Code</span>, permitindo separar de forma clara 
+                e modular as responsabilidades do projeto.
+            </p>
+            <h2>Arquitetura MVC</h2>
+            <p>
+                Utilizamos o padrão MVC para organizar o projeto:
+                <ul>
+                    <li><b>Model:</b> Responsável pelos dados e lógica do negócio.</li>
+                    <li><b>View:</b> Define a interface visual da aplicação, utilizando arquivos <span class="highlight">.cshtml</span> com HTML e Razor.</li>
+                    <li><b>Controller:</b> Controla as interações entre o usuário, a view e os dados.</li>
+                </ul>
+            </p>
+            <h2>API RESTful</h2>
+            <p>
+                O projeto utiliza uma <span class="highlight">API RESTful</span> desenvolvida com <b>ASP.NET Core</b>. 
+                A API é responsável por gerenciar e fornecer os dados necessários através de endpoints HTTP. 
+                Ela realiza operações <span class="highlight">CRUD</span> (Create, Read, Update, Delete) e permite a integração entre o backend e o frontend.
+            </p>
+            <h2>Tecnologias Utilizadas</h2>
+            <p>
+                Durante o desenvolvimento, utilizamos as seguintes tecnologias:
+                <ul>
+                    <li><b>C# e ASP.NET Core:</b> Para o backend e criação da API.</li>
+                    <li><b>Razor e Bootstrap 5:</b> Para construção das views com um design responsivo e moderno.</li>
+                    <li><b>HTML5 e CSS3:</b> Estruturação e estilização das páginas.</li>
+                    <li><b>Visual Studio Code:</b> Ambiente de desenvolvimento.</li>
+                </ul>
+            </p>
+            <p>
+                O projeto resultou em um site funcional e responsivo, com navegação intuitiva e integração com a API para gerenciar dados. 
+                A combinação do <span class="highlight">MVC</span> e da <span class="highlight">API RESTful</span> garantiu uma aplicação escalável e organizada.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* _content/TarefasWebApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-aucuky7zja] {
+  background: rgb(7,244,197);
+  background: linear-gradient(90deg, rgba(7,244,197,1) 0%, rgba(38,225,232,1) 50%, rgba(1,140,168,1) 100%);          
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos do menu de navegação */
+.navbar[b-aucuky7zja] {
+  background-color: #00bcd4; /* Azul ciano */
+}
+
+.navbar-brand[b-aucuky7zja],
+.nav-link[b-aucuky7zja] {
+  color: #fff !important;
+}
+
+.nav-link:hover[b-aucuky7zja] {
+  text-decoration: underline;
+}
+
+footer[b-aucuky7zja] {
+  text-align: center !important; 
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00bcd4; 
+  color: white;
+  margin-top: 30px;
+}

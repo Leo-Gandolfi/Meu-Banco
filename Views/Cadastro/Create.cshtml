@@ -1,0 +1,38 @@
+@model CadastroWebApp.Models.Cadastro
+
+<h1 class="text-center my-4">Nova Conta</h1>
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<form method="post" class="shadow-lg p-4 rounded bg-light">
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Descricao">Descrição</label>
+        <textarea id="Descricao" name="Descricao" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="DataAbertura">Data de Abertura</label>
+        <input type="date" id="DataAbertura" name="DataAbertura" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="SaldoInicial">Saldo Inicial</label>
+        <input type="number" id="SaldoInicial" name="SaldoInicial" class="form-control" step="0.01" required />
+    </div>
+
+    <div class="form-group">
+        <label for="TipoConta">Tipo de Conta</label>
+        <select id="TipoConta" name="TipoConta" class="form-control">
+            <option value="Corrente">Corrente</option>
+            <option value="Poupanca">Poupança</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success btn-block mt-3">Salvar</button>
+</form>

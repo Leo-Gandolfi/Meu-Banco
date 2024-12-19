@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Moderno - Página Principal</title>
+    <style>
+
+        .centered-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .jumbotron {
+            background-color: #eaf6ff; 
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-right img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container centered-section">
+        <div class="row jumbotron">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="display-5">Bem-vindo ao Meu Banco!</h1>
+                <p class="lead">Este projeto foi criado para fortalecer o conhecimento em desenvolvimento de aplicações com C# e integração com APIs.</p>
+                <hr class="my-4">
+                <p>Explore as seções do site e veja como a aplicação se conecta com a API e mantém os dados atualizados.</p>
+                <a class="btn btn-primary btn-lg" href="@Url.Action("Index", "Cadastro")">Visualizar Clientes</a>
+
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="/images/bank_img.png" alt="Imagem do Banco" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

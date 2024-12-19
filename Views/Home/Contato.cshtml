@@ -1,0 +1,32 @@
+@{
+    ViewBag.Title = "Contato";
+}
+
+
+<div class="container mt-5">
+    <div class="row bg-white shadow rounded p-4">
+        <div class="col-md-6">
+            <h2 class="mb-4 text-center">Entre em Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <img src="/images/cellphone.jpg" alt="Imagem do Banco" class="img-fluid">
+        </div>
+    </div>
+</div>
+
